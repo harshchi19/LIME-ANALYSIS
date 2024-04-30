@@ -62,7 +62,8 @@ if predict_button:
     predicted_attractions = np.random.choice(["Beach", "Fort", "Hill Station", "Temple", "Market"], size=len(selected_destinations))
     st.markdown("## **Predicted Attractions:**")
     for destination, attraction in zip(selected_destinations, predicted_attractions):
-        st.write(f"- {destination}: {attraction}")
+        st.write(f"- {destination}: **{attraction}**")
+
 
     # Generate feature importance graph
     def generate_feature_importance_graph():
