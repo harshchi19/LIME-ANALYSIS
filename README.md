@@ -33,5 +33,3 @@ This Streamlit web app helps you customize your travel itinerary to various dest
 2. Customize accommodation types, travel modes, and budgets for each destination.
 3. Set the duration of your trip.
 4. Click on the "Predict" button to get attraction predictions and view additional data visualizations.
-
-Enjoy customizing your travel itinerary with ease!
